@@ -29,14 +29,14 @@ ProdutoCriacaoDto: Utilizado para criar novos produtos, contendo dados necessár
 VendasCriacaoDto: Utilizado para criar novas vendas, contendo dados necessários como nome do produto, quantidade vendida, valor total e forma de pagamento.
 
 ## Serviços:
-# CLIENTE
+### CLIENTE
 IClienteInterface: Define operações para gerenciar clientes.
 
 Métodos como ListarClientes e CriarClientes.
 
 ClienteService: Implementa IClienteInterface e fornece lógica para as operações relacionadas a clientes.
 
-# FUNCIONARIOS
+### FUNCIONARIOS
 IFuncionarioInterface: Define operações para gerenciar funcionarios.
 
 Métodos como ListarFuncionarios, CriarFuncionario, EditarFuncionario, ExcluirFuncionario.
@@ -50,14 +50,14 @@ Métodos como ListarFornecedores, CriarFornecedor.
 
 FornecedorService: Implementa IFornecedorInterface e fornece lógica para as operações relacionadas a fornecedores.
 
-# PRODUTOS
+### PRODUTOS
 IProdutoInterface: Define operações para gerenciar fornecedores.
 
 Métodos como ListarProdutos, EditarProduto, CriarProduto.
 
 ProdutoService: Implementa IFornecedorInterface e fornece lógica para as operações relacionadas a produtos.
 
-# VENDAS
+### VENDAS
 IVendasInterface: Define operações para gerenciar vendas.
 
 Métodos como ListarVendas, CriarVendas.
@@ -65,12 +65,12 @@ Métodos como ListarVendas, CriarVendas.
 VendasService: Implementa IVendasInterface e fornece lógica para as operações relacionadas a vendas.
 
 ## Funcionalidades:
-# CLIENTES
+### CLIENTES
 Listar Clientes: Recupera a lista de todos os clientes registrados.
 
 Criar Clientes: Adiciona novos clientes ao banco de dados.
 
-# FUNCIONÁRIOS
+### FUNCIONÁRIOS
 Listar Funcionários: Recupera a lista de todos os funcionários registrados.
 
 Criar Funcionários: Adiciona novos funcionários ao banco de dados.
@@ -79,19 +79,19 @@ Editar Funcionários: Atualiza as funções de funcionários existentes.
 
 Excluir Funcionários: Remove funcionários do banco de dados.
 
-# FORNECEDORES
+### FORNECEDORES
 Listar Fornecedores: Recupera a lista de todos os fornecedores registrados.
 
 Criar Fornecedores: Adiciona novos fornecedores ao banco de dados.
 
-# PRODUTOS
+### PRODUTOS
 Listar Produtos: Recupera a lista de todos os produtos registrados.
 
 Criar Produtos: Adiciona novos produtos ao banco de dados.
 
 Editar Produtos: Atualiza as informações de produtos existentes.
 
-# VENDAS
+### VENDAS
 Listar Vendas: Recupera a lista de todas as vendas registradas.
 
 Criar Vendas: Registra novas vendas no sistema.
