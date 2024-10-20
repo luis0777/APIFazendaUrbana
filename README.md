@@ -43,7 +43,7 @@ Métodos como ListarFuncionarios, CriarFuncionario, EditarFuncionario, ExcluirFu
 
 FuncionarioService: Implementa IFuncionarioInterface e fornece lógica para as operações relacionadas a funcionarios.
 
-# FORNECEDORES
+### FORNECEDORES
 IFornecedorInterface: Define operações para gerenciar fornecedores.
 
 Métodos como ListarFornecedores, CriarFornecedor.
